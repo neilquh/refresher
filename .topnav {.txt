@@ -1,0 +1,29 @@
+.topnav {
+    text-align: center;
+  }
+  .topnav a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0000FF;
+  }
+  
+  .topnav a:hover {
+    display: inline;
+    float: left;
+  }
+   .active{
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  li a:hover:not(active){
+      background-color: #ffd700;
+  }
+  body{
+      background-image: url("bg.jpg");
+      
+      }

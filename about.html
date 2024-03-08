@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Golden State Warriors</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="designs.css">
+  <link rel="stylesheet" href="media.css"> <link rel="icon" type="image" href="images/favicon.ico">
+  <script src="https://unpkg.com/react@18.2.0/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18.2.0/umd/react-dom.development.js" crossorigin></script>
+</head>
+<body>
+  <div id="root"></div>
+    <script src="src/App.jsx"></script>
+  <style>
+    body{
+      background-color: #FDB928;
+    }
+  </style>
+
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Home</a>
+    <a href="news.html">News</a>
+    <a href="contact.html">Stats</a>
+    <a href="about.html">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+  <main>
+    <section class="history">
+        <h2>A Legacy of Excellence</h2>
+        <p>The Golden State Warriors are a professional basketball team based in San Francisco, California. Founded in 1946, the team boasts a rich history dating back to the Basketball Association of America (BAA), one of the leagues that merged to form the NBA in 1949.</p>
+        <p>The Warriors have captured **seven NBA championships**, including four titles won in the last eight years (2015, 2017, 2018, and 2022). Legendary players like Wilt Chamberlain, Rick Barry, Stephen Curry, Klay Thompson, and Draymond Green have called the Warriors home, captivating fans with their talent and exciting style of play.</p>
+        <p>American professional basketball team based in San Francisco that plays in the Western Conference of the National Basketball Association (NBA). The Warriors have won six NBA championships and one Basketball Association of America (BAA) title.
+
+          The Warriors were founded in 1946 and were originally based in Philadelphia. One of the original members of the BAA, the team won the league’s first championship behind the play of future Hall of Fame forward Joe Fulks, the BAA’s inaugural scoring leader. The Warriors lost in the BAA finals the next season, and in 1949 the team became a part of the NBA when the BAA merged with the National Basketball League (NBL). The Warriors finished higher than fourth place in their division just once in their first six seasons in the new league. In 1955–56, however, the Warriors, led by forward Paul Arizin and centre Neil Johnston, posted the best record in the league and captured their first NBA title.</p>
+      </section>
+
+    <section class="arena">
+        <h2>Chase Center: Where Champions Play</h2>
+        <img src="images/Chase_Center.jpg" alt="Chase Center image" class="responsive" width="600" height="400"> <p>The Warriors call the state-of-the-art Chase Center their home court. Opened in 2019, this magnificent arena offers a world-class experience for fans, featuring innovative technology, breathtaking views, and a vibrant atmosphere.</p>
+        <p>Chase Center is an indoor arena in the Mission Bay neighborhood of San Francisco, California. The building is the home venue for the Golden State Warriors of the National Basketball Association (NBA) and occasionally for the University of San Francisco men's and women's basketball teams in the National Collegiate Athletic Association (NCAA). The Warriors, who have been located in the San Francisco Bay Area since 1962, played their home games at Oakland Arena in Oakland from 1971 to 2019. Chase Center opened on September 6, 2019 and seats 18,064 for Warriors games.</p>
+    </section>
+
+    <section class="community">
+        <h2>Committed to the Community</h2>
+        <p>The Warriors organization extends its dedication beyond the court, deeply involved in the San Francisco Bay Area community. Through various charitable initiatives and programs, they empower youth and families, fostering a positive impact on the lives of many.</p>
+        <p>The Bay Area continues to face unprecedented challenges and the pandemic put a spotlight on inequities that have existed for decades. As a Sixth Fan member, your monthly donations will go toward vital tools and resources for grantees of the Warriors Community Foundation focused in the areas of STEM education, elementary literacy, college access and other youth development programs. Your sustained support allows our nonprofit partner organizations to enrich the educational experience of students in both San Francisco and Alameda counties.</p>
+      </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-container">
+    <a href="https://www.warriors.com/" class="warriors-link">
+      <img src="images/favicon.ico" alt="Golden State Warriors Logo">
+    </a>
+
+    <nav class="footer-nav">
+      <ul>
+        <li><a href="https://community.warriors.com/foundation/?_gl=1*jcskx2*_ga*MTg3ODgwNzg5NC4xNzA5MjU0NjYz*_ga_RY9H8ZP8MH*MTcwOTYxNzUwMC4xMC4xLjE3MDk2MTg5OTIuNjAuMC4w">Community</a></li>
+        <li><a href="https://www.nba.com/warriors/connect?utm_source=gsw-web&utm_medium=nav&utm_campaign=bottom">Stay Connected</a></li>
+      </ul>
+    </nav>
+
+    <ul class="social-media">
+      <li><a href="https://www.facebook.com/warriors"><i class="fa fa-facebook"></i></a></li>
+      <li><a href="https://www.facebook.com/warriors"><i class="fa fa-twitter"></i></a></li>
+      <li><a href="https://www.instagram.com/warriors/"><i class="fa fa-instagram"></i></a></li>
+      <li><a href="https://www.youtube.com/channel/UCeYc_OjHs3QNxIjti2whKzg"><i class="fa fa-youtube"></i></a></li>
+      
+    </ul>
+
+    <ul class="legal-links">
+      <li><a href="https://www.nba.com/privacy-policy">Privacy Policy</a></li>
+      <li><a href="https://www.nba.com/termsofuse">Terms of Use</a></li>
+      <li><a href="https://www.nba.com/termsofuse">Customer Support</a></li>
+    </ul>
+  </div>
+
+  <p class="copyright">&copy; 2024 Golden State Warriors. All Rights Reserved.</p>
+</footer>
+</div>
+</footer>
+  </body>
+</html>

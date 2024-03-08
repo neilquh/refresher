@@ -1,0 +1,207 @@
+/*topnav*/
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-wrap: nowrap;
+}
+
+.topnav {
+  display: flex; /* Makes the navigation bar horizontal */
+  justify-content: space-between; /* Distributes links evenly */
+  padding: 10px;
+}
+
+.topnav a {
+  display: block; /* Makes navigation links behave like buttons */
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav.responsive {
+  position: fixed; /* Fix the navigation bar to the top on scroll */
+  top: 0;
+  width: 100%;
+  background-color: #e0b456; /* Change background color for responsiveness */
+  color: white; /* Change text color for responsiveness */
+}
+
+.topnav a.active {
+  background-color: #e0b456; /* Highlight active navigation link */
+  color: rgb(249, 249, 249); /* Change text color for active link */
+}
+
+.topnav a.icon {
+  display: none; /* Hide menu icon on large screens */
+}
+.h2{
+  text-align: center;
+  padding-top: 14px;
+}
+
+
+
+/*gallery*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: rgba(253,185,40,255);
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+/*End of gallery*/
+
+.image-container {
+  display: flex;
+  justify-content: space-between; /* or other options */
+  align-items: center; /* or other options */
+  border-radius: 8px;
+}
+
+.image {
+  width: 40%; /* Adjust width as needed */
+}
+.flex-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust as needed */
+  grid-gap: 10px; /* Spacing between images */
+}
+
+
+
+.content img {
+  width: 50%; /* Ensure images fill their grid cells */
+}
+.img {
+  display: block;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+.arena img {vertical-align: middle;}
+.footer {
+  background-color: #202124; /* Adjust background color */
+  color: #ffffff; /* Adjust text color */
+  padding: 10px;
+}
+/*footer*/
+
+.footer-container {
+  display: fill;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.warriors-link img {
+  width: 100px; /* Adjust logo size */
+}
+
+.footer-nav,
+.social-media,
+.legal-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-nav li,
+.social-media li,
+.legal-links li {
+  display: inline-block;
+  margin-right: 15px; /* Adjust spacing between links */
+}
+
+.social-media li a {
+  color: #ffffff; /* Adjust social media icon color */
+}
+
+.social-media li a:hover {
+  color: #FDB928; /* Adjust hover color for social media icons */
+}
+
+.copyright {
+  text-align: center;
+  font-size: 12px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #1d4289;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+  
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
